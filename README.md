@@ -13,17 +13,17 @@ informações do hardware.
 --------------------------------------------------------------------------------------------------------
 INFORMAÇÕES TÉCNICAS
 
-DEPENDÊNCIAS
-REDE
-  arp-scan 
-  traceroute 
-  iputils-ping 
-  nmap 
-  nload
-  curl
-INFO HARDWARE
-  inxi
-  lshw
+	DEPENDÊNCIAS
+	REDE
+	  arp-scan 
+	  traceroute 
+	  iputils-ping 
+	  nmap 
+	  nload
+	  curl
+	INFO HARDWARE
+	  inxi
+	  lshw
 --------------------------------------------------------------------------------------------------------
     
 MAPA DO PROGRAMA

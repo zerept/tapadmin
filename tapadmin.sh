@@ -6,8 +6,8 @@
 # wmctrl -r :ACTIVE: -b toggle,maximized_vert
     pagina=" MENU PRINCIPAL "
     opcao="0"
-    menuPrincipal=(' ( 01 ) FERRAMENTAS DE SISTEMA' ' ( 02 ) FERRAMENTAS DE REDE ' ' ( 03 ) INFORMAÇÕES DE HARDWARE ' ' ' ' ( 99 ) SOBRE O TAP ADMIN ' ' ( 00 ) SAIR ')
-
+    menuPrincipal=(' ( 01 ) FERRAMENTAS DE SISTEMA' ' ( 02 ) FERRAMENTAS DE REDE ' ' ( 03 ) INFORMAÇÕES DE HARDWARE ' ' ( 00 ) SAIR ')
+    # menuPrincipal=(' ( 01 ) FERRAMENTAS DE SISTEMA' ' ( 02 ) FERRAMENTAS DE REDE ' ' ( 03 ) INFORMAÇÕES DE HARDWARE ' ' ' ' ( 99 ) SOBRE O TAP ADMIN ' ' ( 00 ) SAIR ')
 
 #FUNÇÕES
     #VARIAVEIS DO MENU
@@ -33,7 +33,7 @@
 
         voltar(){
             pagina=" MENU PRINCIPAL "
-            menuPrincipal=(' ( 01 ) FERRAMENTAS DE SISTEMA' ' ( 02 ) FERRAMENTAS DE REDE ' ' ( 03 ) INFORMAÇÕES DE HARDWARE ' ' ' ' ( 99 ) SOBRE O TAP ADMIN ' ' ( 00 ) SAIR ')
+            menuPrincipal=(' ( 01 ) FERRAMENTAS DE SISTEMA' ' ( 02 ) FERRAMENTAS DE REDE ' ' ( 03 ) INFORMAÇÕES DE HARDWARE ' ' ( 00 ) SAIR ')
         }
 
         sair(){
@@ -388,7 +388,7 @@
                         02) rede;;
                         03) hardware;;
                         999) voltar;;
-                        99) sobre;;
+#                        99) sobre;;
                         00) sair;;
 
                     #submenu sistema

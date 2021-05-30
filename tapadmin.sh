@@ -221,7 +221,7 @@
             sudo arp-scan -l
             echo
             echo -e '\033[01;32mAperte Enter para continuar !!!\033[00;37m'
-            read x       ´
+            read x
         }
 
         ver_ping(){
